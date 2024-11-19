@@ -154,8 +154,8 @@ Main(){
 
 			readarray -t Buffer < "$File"
 			for BufferLine in "${Buffer[@]}"; {
-				if [[ $BufferLine == '# cheat.sh: '* ]]; then
-					CheatLine=${BufferLine#'# cheat.sh: '}
+				if [[ $BufferLine == '# cheatly.khulnasoft.com: '* ]]; then
+					CheatLine=${BufferLine#'# cheatly.khulnasoft.com: '}
 					IFS=',' read -a Fields <<< "$CheatLine"
 					for Field in "${Fields[@]}"; {
 						[ "$Field" == "$Progrm=disable" ] && SkipFile='True'

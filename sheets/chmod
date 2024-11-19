@@ -31,5 +31,5 @@ chmod 750 PATH
 chmod a+X PATH
 
 # Convert string representation of the access right into numeric form and back.
-curl cheat.sh/chmod/750
-curl cheat.sh/chmod/rwxr-x---
+curl cheatly.khulnasoft.com/chmod/750
+curl cheatly.khulnasoft.com/chmod/rwxr-x---

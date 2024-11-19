@@ -4,13 +4,13 @@
 # also cited simply as Sloane's, is an online database of integer sequences.
 
 # Find all possible OEIS sequences for some sequence (1,1,1,1...)
-curl cheat.sh/oeis/1+1+1+1
+curl cheatly.khulnasoft.com/oeis/1+1+1+1
 
 # Describe an OEIS sequence (A2)
-curl cheat.sh/oeis/A2
+curl cheatly.khulnasoft.com/oeis/A2
 
 # Implementation of the A2 OEIS sequence in Python
-curl cheat.sh/oeis/A2/python
+curl cheatly.khulnasoft.com/oeis/A2/python
 
 # List all available implementations of the A2 OEIS sequence
-curl cheat.sh/oeis/A2/:list
+curl cheatly.khulnasoft.com/oeis/A2/:list

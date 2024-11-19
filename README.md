@@ -1,6 +1,6 @@
 # cheat.sheets
 
-Own cheat sheets repository of the *cheat.sh*.
+Own cheat sheets repository of the *cheatly.khulnasoft.com*.
 
 If you want to add a cheat sheet to cheat.sh directly,
 add it here (please also consider adding your cheat sheet
