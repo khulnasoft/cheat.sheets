@@ -95,7 +95,7 @@ while [ "$1" ]; do
 	shift
 done
 
-# Thank you, Chubin. Feature apparently added in version 3.0 alpha, so should
+# Thank you, KhulnaSoft. Feature apparently added in version 3.0 alpha, so should
 # be OK, but if anyone is having issues, just `cd` to the 'tests' directory.
 [ ${BASH_VERSINFO[0]:-0} -eq 3 ] || cd "${BASH_SOURCE[0]%/*}" &> /dev/null
 
@@ -148,7 +148,7 @@ Main(){
 	for File in "${Dirs[@]}"; {
 		[ -f "$File" ] || continue
 
-		# Per chubin's desire to have an "in-bound flag"; see #134.
+		# Per khulnasoft's desire to have an "in-bound flag"; see #134.
 		if [ "$NoLenChkLine" != 'True' ]; then
 			SkipFile='False'
 
